@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Our Uploads</title>
+
+    <!--css link-->  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+
+</head> 
+<body>
+    <!--navbar starts here-->
+
+    <nav class="bottom-nav">
+        <div class="middle-nav-items">
+            <div class="logo">
+                <img src="{{url_for('static', filename='images/logo.jpg')}}">
+            </div>
+           
+        </div>
+        <ul class="botm-nav">
+            <li><a href="/website.html">Home</a></li>
+            <li><a href="/aboutpage.html">About</a></li>
+            <li><a href="/project.html">Projects</a></li>
+            <li><a href="/website.html#teams">Team</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+           <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="right-nav-items">
+            
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div> 
+    </nav>
+
+
+    <!--navbar ends here-->
+
+
+    <!-- hero page starts here -->
+
+        <div class="home">
+            <h1>Gallery</h1>
+
+            <h3> April 2023</h3>
+        </div>
+    
+     <!-- hero page ends here -->
+
+    
+    <!--gallery starts here-->
+    
+     <section class="main-page">
+            
+        <div class="container">
+
+            <div class="slide-container">
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/1.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/2.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/3.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/4.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/5.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/6.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/1.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/2.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/3.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/4.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/5.jpg')}}">
+                </div>
+
+                <div class="slide-image">
+                    <img src="{{url_for('static', filename='images/6.jpg')}}">
+                </div>
+
+                <!-- <div class="slide-image">
+                    <img src="https://64.media.tumblr.com/67e304aa7a29fcddd681749f014de1b2/3cde173706cbc2db-c5/s2048x3072/bcedbd2c9d5ae5bbcf88c330e64c5090cd0a4e4a.jpg">
+                </div>
+
+                <div class="slide-image">
+                    <img src="https://i2.wp.com/wallpapercave.com/wp/wp8233342.jpg"> -->
+
+                </div>
+
+                
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!--gallery ends here-->
+
+
+    
+    <!------------ footer part starts here ---------------->
+
+
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        Lazy Web Copyright © 2023 LazyWeb - All rights reserved || Designed By: Lazy Web 
+        </div>
+        </div>
+        </footer>   
+
+
+    <!------------ footer part ends here ---------------->
+</body>
+</html>

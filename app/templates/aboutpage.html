@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+
+     <!--Google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--navbar starts here-->
+
+    <nav class="bottom-nav">
+        <div class="middle-nav-items">
+            <div class="logo">
+                <img src="{{url_for('static', filename='images/logo.jpg')}}">
+            </div>
+           
+        </div>
+        <ul class="botm-nav">
+            <li><a href="/website.html">Home</a></li>
+            <li><a href="/aboutpage.html">About</a></li>
+            <li><a href="/project.html">Projects</a></li>
+            <li><a href="/website.html#teams">Team</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+           <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="right-nav-items">
+            
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div> 
+    </nav>
+
+
+    <!--navbar ends here-->
+
+
+
+
+    <!-- hero page starts here  -->
+    <section class="main-about">
+
+        <div class="about">
+            <h1>ABOUT US</h1>
+
+            <p>We believe in persuing the boundries of what's possible. We are a team of experts committed to delivering outstanding result.</p>
+        </div>
+
+        <div class="mission">
+            <h1>MISSION</h1>
+
+            <p>We believe in the the power of collaboration and hardwork. Together, we strive to make a positive impact in the Web World.</p>
+
+        </div>
+
+        <div class="vision">
+            <h1>VISION</h1>
+
+            <p>Our vision is to be the one of the best web development company. Focused on constant innovation as our key for achieving the ultimate goal of success.</p>
+
+        </div>
+    </section>
+    <!-- hero page ends here  -->
+
+
+    
+
+    <!------------ footer part starts here ---------------->
+
+
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        Lazy Web Copyright © 2023 LazyWeb - All rights reserved || Designed By: Lazy Web 
+        </div>
+        </div>
+        </footer>   
+
+
+    <!------------ footer part ends here ---------------->
+
+</body>
+</html>

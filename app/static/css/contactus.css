@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+ 
+
+
+/*navbar starts here*/
+
+.bottom-nav{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    z-index: 9;
+    position: sticky;
+    color:white;
+    box-shadow: 0px 6px 5px -5px rgb(212, 209, 209);
+    top:0;
+    /* background-color: rgb(36, 36, 36); */
+    background-color: black;
+    height: 50px;
+}
+
+
+
+.right-nav-items{
+    display: felx;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-nav-items img{
+
+    border-radius: 50%;
+}
+
+i{
+    
+    width:50px;
+    font-size: 25px;
+}
+
+.logo{
+    height:40px;
+    width: 120px;
+    border-radius: 0%;
+}
+.logo img{
+    height: 40px;
+    width: 120px;
+    border-radius: 0px;
+}
+
+
+i:hover{
+    cursor: pointer;
+    color:rgb(254, 197, 25);
+}
+
+.botm-nav  li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px;   
+    margin: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.botm-nav li:hover{
+   
+    color:rgb(236, 200, 20);
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+
+
+.botm-nav li a:hover{
+    color:orange;
+}
+ 
+
+.botm-nav a, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px; 
+  }
+  
+ .botm-nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(90deg, orange, rgb(249, 238, 25)); /* underline color */
+    background-size: 0 2px; 
+    background-repeat: no-repeat;
+    background-position: left bottom; /* start position of underline */
+    transition: background-size .3s ease-in; /* duration and timing style of animation */
+  }
+  
+ .botm-nav a:hover::before {
+    background-size: 100% 2px;
+    
+  }
+
+
+.logo img:hover{
+    cursor: pointer;
+
+}
+
+
+/*navbar ends here*/
+
+
+
+/* contact page starts here  */
+
+
+#contacts{
+
+    height:90vh;
+    /* background-color: rgb(36, 36, 36); */
+    background-image: url("/static/images/background-vector-illustration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% ;
+    margin: 0px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+}
+    
+#contacts h1{
+    margin: 0px;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    /* text-decoration: underline rgb(52, 195, 243); */
+}
+    
+.contact-box{
+    display: flex;
+    height:70%;
+    width:90%;
+    justify-content:center;
+    padding: 20px;
+    align-items: center;
+       
+}
+    
+.left-contact{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    width:25%;
+    padding: 10px;
+    height: 350px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-right:50px;
+    color:black;
+        
+}
+
+.left-contact .row1{
+    display: flex;
+}
+
+
+
+.left-contact img{
+    height:250px;
+    width:250px;
+    margin-top: -50px;
+
+}
+
+.left-contact h2{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+    
+.left-contact h4{
+    color:goldenrod;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+    
+.left-contact hr{
+    margin-bottom: 20px;
+}
+.left-contact p{
+    color:black;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+    
+.right-contact{
+    background: white;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    margin-top: 40px;
+    height:350px;
+    padding: 15px 10px;
+    box-shadow: 4px 4px 4px 4px rgb(6, 6, 6);
+    border-radius:10px;
+}
+
+
+.right-contact input{
+    border: none;
+    background-color: #cecbcb;
+    padding: 2px;
+    border-radius: 5px;
+    color:black;
+    padding-left: 15px;
+}
+
+.name{
+    height:30px;
+    width:90%;
+    margin-top: 10px;
+}
+    
+.email{
+    height:30px;
+    width:90%;
+    margin-top: 10px;
+}
+    
+.message{
+    width:90%;
+    height:120px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+    
+.right-contact button{
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+    border:0px;
+    margin-top: 15px;
+    background-color: rgb(36, 36, 36);
+    color:white;
+}
+    
+.right-contact button:hover{
+    /* background-color: goldenrod; */
+    color:white;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    /* transition: .3s; */
+    background: linear-gradient(
+        to right, #833ab4, #fd1d1d, #fcb045
+    );
+    background-size: 400% 400%;
+    animation:animate-background 3s infinite ease-in-out;
+    
+}
+
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+
+
+}
+
+
+
+/* contact page ends here  */
+
+
+
+
+/*-- footer part starts here ---*/
+
+.footer{
+    background-color:black;
+    padding:20px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    .footer .row{
+    width:90%;
+    margin:1%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+     transition:0.5s; 
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+/* ----footer part ends here ----*/

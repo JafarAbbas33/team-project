@@ -1,0 +1,280 @@
+/* mobile responsive */
+
+/* navbar responsive */
+
+.mobile-nav-btns{
+    display: none;
+}
+
+.mobile-nav-btns .fa-x{
+    display: none;
+}
+
+
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+    
+
+    /* navbar */
+
+
+    .bottom-nav{
+        /* display: none; */
+        
+    }
+    
+    .logo img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .botm-nav , .right-nav-items{
+        display: none;
+    }
+
+    .mobile-nav-btns{
+        display: block;
+    }
+
+    
+
+    /* hero */
+
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        height: 100vh;
+        width: 100vw;
+        margin-top: 50px;
+    }
+
+
+
+    .right-hero img{
+        height: 50vh;
+        width: auto;
+        
+    }
+
+   .left-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+    .left-hero h1{
+        margin: 0;
+        width: auto;
+        font-family: 'Bree Serif', serif;
+        /* font-family: 'Alkatra', cursive; */
+        font-size: 20px;
+        /* margin-bottom: 8px;; */
+        /* margin-left: 30%; */
+        
+    }
+
+    .left-hero p{
+        margin: 0;
+        width: 40vw;
+        /* font-family: 'Bree Serif', serif; */
+        font-family: 'Alkatra', cursive;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .hero-btns button{
+        height: 50px;
+        width: 150px;
+    }
+
+
+    /* about us  */
+
+
+    #about-us{
+        height: 120vh;
+        width: auto;
+        margin-right:0px;
+        margin-left:0px;
+        padding: 0px;
+
+    }
+
+    .about-us-body{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .left-about{
+        width: auto;
+        height: auto;
+        font-family: 'Alkatra', cursive;
+        margin-left: 0px;
+    }
+
+    .about-us-body .left-about H1{
+
+    }
+
+
+    /* tech */
+
+    .tech{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .left-tech{
+        height: auto;
+        width: 100vw;
+        padding-left:0px ;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+
+    .right-tech{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .tech .box{
+        height: 200px;
+        width: 400px;
+        margin: 10px 0px;
+    }
+
+    .Services-heading{
+        /* display: none; */
+    }
+
+
+    /* projects */
+
+
+
+
+
+    /* gallery */
+
+
+     #gallery{
+        /* display: none; */
+        height: 300vh;
+    }
+
+
+    .gallery-box{
+        height: 300vh;
+    }
+
+    .gallery-img5{
+        height: 280px;
+        width: 280px;
+        position: absolute;
+        top: 3%;
+        left: 10%;
+
+    }
+
+    .gallery-img2{
+        height: 190px;
+        width: 190px;
+        position: absolute;
+        top: 20%;
+        left: 39%;
+        border: 2px solid black;
+    }
+
+    .gallery-img1{
+        height: 170px;
+        width: 170px;
+        position: absolute;
+        top: 33%;
+        left: 10%;
+    }
+
+    .gallery-img4{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+       
+        top: 45%;
+        left: 35%;
+    }
+
+    .gallery-img3{
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+
+    
+    .gallery-img6{
+        height: 240px;
+        width: 240px;
+        position: absolute;
+        top: 72%;
+        left: 35%;
+        border: 2px solid black;
+    }
+
+    .gallery-year-text{
+        top: 88%;
+        left: 10%;
+        font-size: 40px;
+    }
+
+    .gallery-title-text{
+        top: 91%;
+        left: 10%;
+        font-size: 40px;
+    } 
+
+
+    #contact-us{
+        height: 40vh;
+        width: 100%;
+    }
+
+    #contact-us .bg-img{
+        height: 40vh;
+        width: 100%;
+    }
+
+    #contact-us h1{
+        font-size: 25px;
+        width: 58vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .contact-us-btn{
+        top: 120px;
+        font-size: 15px;
+        padding: 10px 30px ;
+    }
+
+
+
+    /* about us */
+    .footer{
+        display: none;
+    }
+    /* recent project */
+    #recent-project{
+        display: none;
+    }
+
+    /* teams */
+    #teams{
+        display: none;
+    }
+
+
+}

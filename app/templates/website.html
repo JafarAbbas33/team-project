@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Sigmar' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sintony' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive-mobile.css') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>  
+<body> 
+
+    <!--------bottom nav opens----------->
+
+    <nav class="bottom-nav">
+        <div class="middle-nav-items">
+            <div class="logo">
+                <img src="{{url_for('static', filename='images/logo.jpg')}}">
+            </div>
+           
+        </div>
+        <ul class="botm-nav">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="/aboutpage.html">About</a></li>
+            <li><a href="/project.html">Projects</a></li>
+            <li><a href="#teams">Team</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+           <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="right-nav-items">
+            
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div> 
+        <div class="mobile-nav-btns">
+          <i class="fa fa-bars mobile-nav-icons"></i>
+          <i class="fa fa-x mobile-nav-icons"></i>
+        </div>
+    </nav>
+
+    <!----------bottom nav closed---------->
+
+    <!---------- hero section starts here ----------->
+
+    <div id="hero">
+
+        <div class="left-hero">
+            <div class="main-heading">
+                <h1>Let's Change The Web World</h1>
+                <p>We are team of talented designers making websites with React.</p>
+            </div>
+            <div class="hero-btns">
+                <button>Hire Us!</button>
+                <a href="/contact.html"><button>Contact Us!</button></a>
+            </div>
+        </div>
+        <div class="right-hero">
+            <img src="{{url_for('static', filename='images/pngegg (2).png')}}">
+        </div>
+
+    </div>
+    <!-------- hero section ends here -------->
+
+
+     <!-------- about section starts here --------->
+    <div id="about-us">
+        <H1 class="about-us-title">ABOUT US!</H1>
+        <div class="about-us-body">
+            <div class="left-about">
+                <h1>LAZY WEB</h1>
+                <p>Our team consists of a group of professionals who work together to design, develop, and maintain websites and web applications. Ultimately, the goal of our team is to create high-quality websites and web applications that meet the needs of clients.</p>
+                
+            </div>
+            <div class="right-about">
+                
+              <p>Web Designing</p>
+              <div class="container">
+                  <div class="skill html">85%</div>
+              </div>
+            
+              <p>UX/UI Designing</p>
+              <div class="container">
+                  <div class="skill ui">60%</div>
+              </div>
+
+              <p>Front-End Development</p>
+              <div class="container">
+                  <div class="skill fed">80%</div>
+              </div>
+              
+              <a href="/aboutpage.html"><button>Know More</button></a>
+                
+            </div>
+    </div>
+    </div>
+   
+     <!---------- about section ends here --------->
+     
+    
+     <!-----------technology starts here----------->
+     <h1 class="Services-heading"><center>SERVICES</center></h1>
+    <div class="tech">
+        <div class="left-tech">
+            
+            <H1>Improve And Innovate with the Tech Trends</H1>
+            <h3>Our team can assist you in transforming your business through latest tech capabilities to stay ahead of the curve.</h3>
+            <ul class="service-list">
+                <li>Web Development</li>
+                <li>Web Design</li>
+                <li>Frontend Web Development</li>
+                <li>Full Stack Development</li>
+            </ul>
+        </div>
+    
+    
+        <div class="right-tech">
+            <div class="box">
+                <i class="fa-brands fa-html5" ></i>
+                <h2>HTML</h2>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-js"></i>
+                <h2>JavaScript</h2>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-react"></i>
+                <h2>REACT</h2>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-php"></i>
+                <h2>PHP</h2>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-python"></i>
+                <h2>PYTHON</h2>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!----------technology ends here------------>
+
+
+
+
+    <!----------- PROJECTS PART START HERE------ -->
+    <section id="recent-project">
+         <h1> RECENT PROJECTS</h1>
+         
+        <div class="inner-project-box">
+
+            <div class="project-item1">
+                
+                <a href="#"><img src="https://th.bing.com/th/id/OIP.maQpFJiRuDMauaTZ3N7KiQHaEo?w=260&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+
+                <div class="info1">
+                    <h2>Food Website</h2>
+                </div>
+                
+            </div>
+
+            <div class="project-item2">
+                
+                <a href="#"> <img src="https://th.bing.com/th/id/OIP.Jz4IkU6DSJLzLKCv2og_EQHaE8?pid=ImgDet&rs=1"></a>
+
+                <div class="info2">
+                    <h2>Medical Website</h2>
+                </div>
+               
+            </div>
+
+            
+            <div class="project-item3">
+                
+                <a href="#"> <img src="https://learn.g2.com/hubfs/iStock-1135541613.jpg"></a>
+                
+                <div class="info3">
+                    <h2>Other Website</h2>
+                </div>
+            </div>
+
+            <div class="project-item3">
+                
+                <a href="#"> <img src="https://learn.g2.com/hubfs/iStock-1135541613.jpg"></a>
+                
+                <div class="info3">
+                    <h2>Other Website</h2>
+                </div>
+            </div>
+            <div class="project-item3">
+                
+                <a href="#"> <img src="https://learn.g2.com/hubfs/iStock-1135541613.jpg"></a>
+                
+                <div class="info3">
+                    <h2>Other Website</h2>
+                </div>
+            </div>
+            <div class="project-item3">
+                
+                <a href="#"> <img src="https://learn.g2.com/hubfs/iStock-1135541613.jpg"></a>
+                
+                <div class="info3">
+                    <h2>Other Website</h2>
+                </div>
+            </div>
+            
+            
+        </div>
+       
+       
+    </section>
+
+
+    <!-------project part ended---------->
+
+
+     <!-----------team page starts here----------->
+
+     
+
+    <div id="teams">
+
+        <h1 class="teams-title"><center>MEET OUR TEAM!</center></h1>
+        <div class="team-disc">
+            <p>Our team is like a group of digital architects, using their coding expertise to craft innovative and functional online spaces that bring ideas to life on the web.</p>
+
+            <p> They collaborate to weave complex webs of code that make the internet a more dynamic and engaging place.</p>
+        </div>
+          
+
+
+        <input type="radio" name="slider" class="d-none" id="s1" checked>
+        <input type="radio" name="slider" class="d-none" id="s2">
+        <input type="radio" name="slider" class="d-none" id="s3">
+        <input type="radio" name="slider" class="d-none" id="s4">
+        <input type="radio" name="slider" class="d-none" id="s5">
+    
+        <div class="cards">
+          <label for="s1" id="slide1">
+            <div class="card">
+              <div class="image">
+                <img src="{{url_for('static', filename='images/vinay.jpg')}}">
+                <div class="dots">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+              <div class="infos">
+                <span class="name">Vinay Yadav</span>
+                
+                <br>
+                <span class="lorem">Front-End Developer</span>
+              </div>
+              <a href="/contact" target="_blank" class="btn-contact">PORTFOLIO</a>
+              <!-- <div class="socials">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div> -->
+            </div>
+          </label>
+    
+          <label for="s2" id="slide2">
+            <div class="card">
+              <div class="image">
+                <img src="{{url_for('static', filename='images/milan.jpg')}}">
+                <div class="dots">
+                  <div class="dot1"></div>
+                  <div class="dot2"></div>
+                  <div class="dot3"></div>
+                </div>
+              </div>
+              <div class="infos">
+                <span class="name">Milan Thapa</span>
+                <br>
+                <span class="lorem">Front-End Developer</span>
+              </div>
+              <a href="https://milanthapa10.github.io/main-portfolio/" target="_blank" class="btn-contact">PORTFOLIO</a>
+              <!-- <div class="socials">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div> -->
+            </div>
+          </label>
+    
+          <label for="s3" id="slide3">
+            <div class="card">
+              <div class="image">
+                <img src="{{url_for('static', filename='images/dev.jpg')}}">
+                <div class="dots">
+                  <div class="dot1"></div>
+                  <div class="dot2"></div>
+                  <div class="dot3"></div>
+                </div>
+              </div>
+              <div class="infos">
+                <span class="name">Devawayan Hore</span>
+                <span class="lorem">Project Manager</span>
+              </div>
+              <a href="/contact" target="_blank" class="btn-contact">PORTFOLIO</a>
+              <!-- <div class="socials">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div> -->
+            </div>
+          </label>
+    
+          <label for="s4" id="slide4">
+            <div class="card">
+              <div class="image">
+                <img src="{{url_for('static', filename='images/jafar.jpg')}}">
+                <div class="dots">
+                  <div class="dot1"></div>
+                  <div class="dot2"></div>
+                  <div class="dot3"></div>
+                </div>
+              </div>
+              <div class="infos">
+                <span class="name">Jafar Abbas</span><br>
+                <span class="lorem">Backend Developer</span>
+              </div>
+              <a href="/contact" target="_blank" class="btn-contact">PORTFOLIO</a>
+              <!-- <div class="socials">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div> -->
+            </div>
+          </label>
+    
+          <label for="s5" id="slide5">
+            <div class="card">
+              <div class="image">
+                <img src="{{url_for('static', filename='images/piyush2.jpg')}}">
+                <div class="dots">
+                  <div class="dot1"></div>
+                  <div class="dot2"></div>
+                  <div class="dot3"></div>
+                </div>
+              </div>
+              <div class="infos">
+                <span class="name">Piyush Paliwal</span>
+                <span class="lorem">Project Manager</span>
+              </div>
+              <a href="/contact" target="_blank" class="btn-contact">PORTFOLIO</a>
+              <!-- <div class="socials">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div> -->
+            </div>
+          </label>
+        </div>
+    
+      </div>
+
+     <!----------- team home page ends here  ----------->
+
+     <!----------gallery page starts here------------>
+
+     <!-- <div id="gallery">
+
+      <div class="gallery-box">
+          <h1 class="happiness">Happiness</h1>
+          <h3>--- IS A HABIT ---</h3>
+            <div class="images">
+              <img class="img1"src="https://i.pinimg.com/736x/78/23/3b/78233b03ad1aae9a405d76a6381f17d2.jpg" alt="">
+              <img class="img2"src="https://wallpapercave.com/wp/cQ96RyO.jpg" alt="">
+              <img class="img3"src="https://images.hdqwalls.com/wallpapers/manga-anime-girl-wide.jpg" alt="">
+              <img class="img4"src="https://images.hdqwalls.com/wallpapers/manga-anime-girl-wide.jpg" alt="">
+              <img class="img5"src="https://wallpapercave.com/wp/wp6055055.jpg" alt="">
+              <img class="img6"src="https://i.pinimg.com/originals/39/67/af/3967af57000573b45ec9852da4064799.jpg" alt="">
+              <img class="img7"src="https://images.hdqwalls.com/wallpapers/anime-girl-colorful-hairs-4k-yu.jpg" alt="">
+              <img class="img8"src="https://wallpapercave.com/wp/wp5102438.jpg" alt="">
+            </div>    
+        
+            
+          
+        
+        
+             
+            
+          
+      </div>
+    
+    </div> -->
+
+     <!-------- gallery home page ends here  ------->
+
+    <!--------- Contact Us starts here ------------>
+
+    <div id="contact-us">
+        <div class="bg-img"></div>
+        <h1>Want a Website for You?</h1>
+        <a href="/contact.html"><button class="contact-us-btn">Contact Us</button></a>
+
+    </div>
+    <!--------- Contact Us endss here ------------>
+
+    <!------------ footer part starts here ---------------->
+
+
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        Lazy Web Copyright © 2023 LazyWeb - All rights reserved || Designed By: Lazy Web 
+        </div>
+        </div>
+        </footer>   
+
+
+    <!------------ footer part ends here ---------------->
+
+</body>
+</html>
